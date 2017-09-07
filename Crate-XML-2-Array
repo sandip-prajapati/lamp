@@ -118,7 +118,7 @@ function xml2array($contents, $get_attributes = 1, $priority = 'tag')
 	}
 	
 	// Let's call the this above function xml2array
-	
+	$result= str_replace("&","and",$xmlContent);
 	xml2array($xmlContent, $get_attributes = 3, $priority = 'tag'); // it will work 100% if not ping me @skype: sapan.mohannty
 	
 //	Enjoy coding
